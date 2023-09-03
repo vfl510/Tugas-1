@@ -3,7 +3,106 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Assigment 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
   </head>
-  <body></body>
+
+  <body>
+    <!-- Bagian Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Hacktiv8</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Profil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portofolio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Tutorial </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">HTML</a></li>
+                <li><a class="dropdown-item" href="#">CSS</a></li>
+                <li><a class="dropdown-item" href="#">Javascript</a></li>
+                <li><a class="dropdown-item" href="#">JQuery</a></li>
+                <li><a class="dropdown-item" href="#">Codelgniter</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <form class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button type="button" class="btn btn-transparant">Login</button>
+          <button type="button" class="btn btn-primary">Daftar</button>
+        </form>
+      </div>
+    </nav>
+
+    <!--Bagian Jumbotron-->
+    <div class="container-fluid text-bg-secondary text-center p-5">
+      <h1>Selamat Datang di www.hactiv8.com!</h1>
+      <p>Tutorial pemrograman bahasa Indonesia terlengkap di muka bumi.</p>
+      <button type="button" class="btn btn-primary btn-lg">Mulai Belajar !</button>
+    </div>
+
+    <!--Bagian Card-->
+    <div class="container-fluid d-flex justify-content-evenly m-3">
+      <div class="card d-inline-flex p-2" style="width: 18rem">
+        <img src="https://www.duniailkom.com/wp-content/uploads/2015/12/jQuery-featured-duniailkom.png" class="card-img-top" alt="JQuery" />
+        <div class="card-body">
+          <h5 class="card-title">Tutorial JQuery</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa est dolores ullam sint sunt pariatur illum distinctio aspernatur odit minima aliquid quam totam facilis aliquam eius omnis accusamus, eaque animi..
+          </p>
+          <a href="#" class="btn btn-primary">Lihat</a>
+        </div>
+      </div>
+      <div class="card d-inline-flex p-2" style="width: 18rem">
+        <img src="https://www.duniailkom.com/wp-content/uploads/2015/12/jQuery-featured-duniailkom.png" class="card-img-top" alt="JQuery" />
+        <div class="card-body">
+          <h5 class="card-title">Tutorial Ionic</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa est dolores ullam sint sunt pariatur illum distinctio aspernatur odit minima aliquid quam totam facilis aliquam eius omnis accusamus, eaque animi..
+          </p>
+          <a href="#" class="btn btn-primary">Lihat</a>
+        </div>
+      </div>
+      <div class="card d-inline-flex p-2" style="width: 18rem">
+        <img src="https://www.duniailkom.com/wp-content/uploads/2015/12/jQuery-featured-duniailkom.png" class="card-img-top" alt="JQuery" />
+        <div class="card-body">
+          <h5 class="card-title">Tutorial Codelgniter</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa est dolores ullam sint sunt pariatur illum distinctio aspernatur odit minima aliquid quam totam facilis aliquam eius omnis accusamus, eaque animi..
+          </p>
+          <a href="#" class="btn btn-primary">Lihat</a>
+        </div>
+      </div>
+      <div class="card d-inline-flex p-2" style="width: 18rem">
+        <img src="https://www.duniailkom.com/wp-content/uploads/2015/12/jQuery-featured-duniailkom.png" class="card-img-top" alt="JQuery" />
+        <div class="card-body">
+          <h5 class="card-title">Tutorial Bootstrap</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa est dolores ullam sint sunt pariatur illum distinctio aspernatur odit minima aliquid quam totam facilis aliquam eius omnis accusamus, eaque animi..
+          </p>
+          <a href="#" class="btn btn-primary">Lihat</a>
+        </div>
+      </div>
+    </div>
+
+    <!--Bagian Footer-->
+    <footer class="footer mt-auto py-1 bg-body-secondary">
+      <div class="container">
+        <span class="d-flex justify-content-between">
+          <p>Copyright</p>
+          <p>Develop by Vindy Felycia Loverita</p>
+        </span>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
 </html>
